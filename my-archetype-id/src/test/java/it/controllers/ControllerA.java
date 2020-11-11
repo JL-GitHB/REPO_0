@@ -8,7 +8,7 @@ public class ControllerA {
 
 	private String nome;
 
-	private String cognomenome;
+	private String congome;
 
 	/**
 	 * @return the nome
@@ -25,17 +25,18 @@ public class ControllerA {
 	}
 
 	/**
-	 * @return the cognomenome
+	 * @return the congome
 	 */
-	public String getCognomenome() {
-		return cognomenome;
+	public String getCongome() {
+		return congome;
 	}
 
 	/**
-	 * @param cognomenome the cognomenome to set
+	 * @param congome the congome to set
 	 */
-	public void setCognomenome(String cognomenome) {
-		this.cognomenome = cognomenome;
+	public void setCongome(String congome) {
+		this.congome = congome;
 	}
 
+	
 }
