@@ -12,7 +12,11 @@ public class ControllerA {
 
 	private String descrizione;
 
+
 	private String piva;
+
+	private String azienda;
+
 
 	/**
 	 * @return the nome
@@ -68,6 +72,20 @@ public class ControllerA {
 	 */
 	public void setPiva(String piva) {
 		this.piva = piva;
+	}
+	
+	/**
+	 * @return the azienda
+	 */
+	public String getAzienda() {
+		return azienda;
+	}
+
+	/**
+	 * @param azienda the azienda to set
+	 */
+	public void setAzienda(String azienda) {
+		this.azienda = azienda;
 	}
 
 }
