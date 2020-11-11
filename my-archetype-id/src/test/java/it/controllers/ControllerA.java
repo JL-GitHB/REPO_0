@@ -3,7 +3,7 @@ package it.controllers;
 public class ControllerA {
 
 	public ControllerA() {
-		super();
+		super();				
 	}
 
 	private String nome;
