@@ -12,6 +12,8 @@ public class ControllerA {
 
 	private String descrizione;
 
+	private String piva;
+
 	/**
 	 * @return the nome
 	 */
@@ -52,6 +54,20 @@ public class ControllerA {
 	 */
 	public void setDescrizione(String descrizione) {
 		this.descrizione = descrizione;
+	}
+
+	/**
+	 * @return the piva
+	 */
+	public String getPiva() {
+		return piva;
+	}
+
+	/**
+	 * @param piva the piva to set
+	 */
+	public void setPiva(String piva) {
+		this.piva = piva;
 	}
 
 }
