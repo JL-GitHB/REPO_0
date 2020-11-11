@@ -16,6 +16,7 @@ public class ControllerA {
 
 	private String azienda;
 
+	private String codAzienda;
 
 	/**
 	 * @return the nome
@@ -72,7 +73,7 @@ public class ControllerA {
 	public void setPiva(String piva) {
 		this.piva = piva;
 	}
-	
+
 	/**
 	 * @return the azienda
 	 */
@@ -85,6 +86,20 @@ public class ControllerA {
 	 */
 	public void setAzienda(String azienda) {
 		this.azienda = azienda;
+	}
+
+	/**
+	 * @return the codAzienda
+	 */
+	public String getCodAzienda() {
+		return codAzienda;
+	}
+
+	/**
+	 * @param codAzienda the codAzienda to set
+	 */
+	public void setCodAzienda(String codAzienda) {
+		this.codAzienda = codAzienda;
 	}
 
 }
