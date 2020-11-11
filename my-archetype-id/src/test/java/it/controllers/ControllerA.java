@@ -12,6 +12,8 @@ public class ControllerA {
 
 	private String descrizione;
 
+	private String azienda;
+
 	/**
 	 * @return the nome
 	 */
@@ -52,6 +54,20 @@ public class ControllerA {
 	 */
 	public void setDescrizione(String descrizione) {
 		this.descrizione = descrizione;
+	}
+
+	/**
+	 * @return the azienda
+	 */
+	public String getAzienda() {
+		return azienda;
+	}
+
+	/**
+	 * @param azienda the azienda to set
+	 */
+	public void setAzienda(String azienda) {
+		this.azienda = azienda;
 	}
 
 }
