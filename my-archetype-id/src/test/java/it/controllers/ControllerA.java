@@ -3,12 +3,14 @@ package it.controllers;
 public class ControllerA {
 
 	public ControllerA() {
-		super();				
+		super();
 	}
 
 	private String nome;
 
 	private String congome;
+
+	private String descrizione;
 
 	/**
 	 * @return the nome
@@ -38,5 +40,18 @@ public class ControllerA {
 		this.congome = congome;
 	}
 
-	
+	/**
+	 * @return the descrizione
+	 */
+	public String getDescrizione() {
+		return descrizione;
+	}
+
+	/**
+	 * @param descrizione the descrizione to set
+	 */
+	public void setDescrizione(String descrizione) {
+		this.descrizione = descrizione;
+	}
+
 }
