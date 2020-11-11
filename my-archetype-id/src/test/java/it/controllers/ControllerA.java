@@ -4,10 +4,11 @@ public class ControllerA {
 
 	public ControllerA() {
 		super();
-		// TODO Auto-generated constructor stub
 	}
 
 	private String nome;
+
+	private String cognomenome;
 
 	/**
 	 * @return the nome
@@ -21,6 +22,20 @@ public class ControllerA {
 	 */
 	public void setNome(String nome) {
 		this.nome = nome;
+	}
+
+	/**
+	 * @return the cognomenome
+	 */
+	public String getCognomenome() {
+		return cognomenome;
+	}
+
+	/**
+	 * @param cognomenome the cognomenome to set
+	 */
+	public void setCognomenome(String cognomenome) {
+		this.cognomenome = cognomenome;
 	}
 
 }
