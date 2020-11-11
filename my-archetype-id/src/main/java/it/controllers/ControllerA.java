@@ -3,24 +3,26 @@ package it.controllers;
 public class ControllerA {
 
 	public ControllerA() {
-		super();
-		// TODO Auto-generated constructor stub
 	}
 
 	private String nome;
 
-	/**
-	 * @return the nome
-	 */
+	private String azienda;
+
+
 	public String getNome() {
 		return nome;
 	}
 
-	/**
-	 * @param nome the nome to set
-	 */
 	public void setNome(String nome) {
 		this.nome = nome;
 	}
 
+	public String getAzienda() {
+		return azienda;
+	}
+
+	public void setAzienda(String azienda) {
+		this.azienda = azienda;
+	}
 }
