@@ -12,7 +12,6 @@ public class ControllerA {
 
 	private String descrizione;
 
-
 	private String piva;
 
 	private String azienda;
